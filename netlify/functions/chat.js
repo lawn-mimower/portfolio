@@ -1,6 +1,6 @@
 // netlify/functions/chat.js
 
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenerativeAI } = require('node_modules/@google/generative-ai');
 
 // Your portfolio context (unchanged)
 const portfolioContext = `
